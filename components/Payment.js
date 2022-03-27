@@ -1,5 +1,5 @@
 import React from "react";
-import Visa from "./visa";
+import Visa from "./Visa";
 import style from "../styles/payment.module.css";
 
 function Payment() {
