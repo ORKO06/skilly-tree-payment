@@ -1,0 +1,200 @@
+.head {
+  display: flex;
+  width: fit-content;
+  font-size: 14px;
+  padding: 12px;
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+
+.head > span {
+  color: red;
+  margin-left: 180px;
+}
+
+.heading {
+  font-size: 27px;
+  color: #665f60;
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-size: 14px;
+  color: #a9a9a9;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 13px;
+  font-size: 14px;
+  border: 2px solid #bcbcbc;
+  padding: 13px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.inputDetailsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding-bottom: 90px;
+  border-bottom: 1px solid black;
+}
+
+.CardNumberSet {
+  display: flex;
+  flex-direction: column;
+}
+.CardNumberSetHead {
+  display: flex;
+  flex-direction: "row";
+  gap: "30px";
+  align-items: "center";
+}
+
+.DetailsHead {
+  font-size: 12px;
+  color: #8b8b8b;
+  font-weight: 400;
+}
+
+.CardInput {
+  border: none;
+  border-bottom: 1.5px solid black;
+}
+
+.CardInput :focus {
+  border: none;
+}
+
+.Head {
+  display: flex;
+  width: fit-content;
+  font-size: 14px;
+  padding: 12px;
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+
+.Head span {
+  color: red;
+  margin-left: 180px;
+}
+
+.visaContainer {
+  height: 110px;
+  width: 220px;
+  position: relative;
+}
+
+.topRightCircle {
+  position: absolute;
+  height: 88px;
+  width: 88px;
+  top: -5px;
+  right: -5px;
+  border-radius: 50%;
+  background: linear-gradient(112.33deg, #fc4d6d 23.89%, #fda02f 94.22%);
+  transform: rotate(-79.9deg);
+}
+
+.bottomLeftCircle {
+  position: absolute;
+  height: 88px;
+  width: 88px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 50%;
+  background: linear-gradient(112.33deg, #fc4d6d 23.89%, #fda02f 94.22%);
+  transform: rotate(-79.9deg);
+}
+
+.backgroundBlur {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.details {
+  display: flex;
+  position: absolute;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.selectBtn {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 1.8px solid white;
+  background-color: transparent;
+}
+
+.accNumber {
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .head {
+    display: none;
+  }
+  .cardContainer {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    width: fit-content;
+  }
+  .inputDetailsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonContainer {
+    flex-wrap: wrap;
+  }
+  .Head span {
+    margin-left: 60px;
+  }
+  .topRightCircle {
+    height: 68px;
+    width: 68px;
+  }
+
+  .bottomLeftCircle {
+    height: 68px;
+    width: 68px;
+  }
+  .CardNumberSetHead {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .paymentParentContainer {
+    max-width: 300px;
+  }
+}
