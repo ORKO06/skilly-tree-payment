@@ -6,17 +6,19 @@ const Navbar = () => {
     <div
       style={{
         boxShadow: `0px 4px 11px rgba(0, 0, 0, 0.14)`,
+        padding: "20px 0",
       }}
+      className="sm:p-0"
     >
-      <div className="md:grid hidden   sm:gap-4 max-w-8xl m-auto grid-cols-2 sm:grid-cols-navbar ">
-        <div className="flex flex-row gap-4 ">
+      <div className="md:grid hidden sm:gap-4 max-w-8xl m-auto grid-cols-2 sm:grid-cols-navbar ">
+        <div className="flex flex-row gap-4 justify-center">
           <Image
             width={60}
             height={60}
             src="/images/logo.png"
             alt="skilly tree logo"
           />
-          <div className="flex items-center flex-col">
+          <div className="flex items-center flex-col justify-center">
             <p
               className=" text-base md:text-2xl"
               style={{

@@ -9,7 +9,7 @@ import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
 const OrderSummary = () => {
   return (
     <div className=" flex justify-center">
-      <div className="max-w-300  float-right sm:rounded-xl md:rounded-none p-2 md:bg-[#E5E5E5] sm:bg-white sm:shadow-[-3px_4px_11px_rgba(0,0,0,0.18)] md:shadow-none sm:m-0 md:my-10 ">
+      <div className="max-w-300  float-right sm:rounded-xl md:rounded-none p-2 md:bg-[#E5E5E5] sm:bg-white shadow-[-3px_4px_11px_rgba(0,0,0,0.18)] md:shadow-none m-4  md:my-10 rounded-2xl md:rounded-none ">
         {true && (
           <span className="my-2 hidden md:block ">
             <div className="flex flex-row gap-2">
@@ -22,13 +22,15 @@ const OrderSummary = () => {
             />
           </span>
         )}
-        <div className="flex m-auto my-3 md:my-6 gap-4">
-          <Image
-            src="/images/logo.png"
-            alt="profile icon"
-            width={80}
-            height={80}
-          />
+        <div className="flex m-auto my-3 md:my-10 gap-4">
+          <div style={{ border: "1px solid red", borderRadius: "10px" }}>
+            <Image
+              src="/images/profile.png"
+              alt="profile icon"
+              width={80}
+              height={80}
+            />
+          </div>
           <div className="flex flex-col justify-center">
             <div className="flex flex-row gap-2">
               <p className="font-semibold text-base ">ELLA .H</p>
