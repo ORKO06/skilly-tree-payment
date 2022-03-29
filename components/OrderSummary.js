@@ -8,8 +8,8 @@ import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
 
 const OrderSummary = () => {
   return (
-    <div className=" flex justify-center">
-      <div className="max-w-300  float-right sm:rounded-xl md:rounded-none p-2 md:bg-[#E5E5E5] sm:bg-white shadow-[-3px_4px_11px_rgba(0,0,0,0.18)] md:shadow-none m-4  md:my-10 rounded-2xl md:rounded-none ">
+    <div className="lg:pb-9  flex justify-center shadow-[-3px_4px_11px_rgba(0,0,0,0.18)] md:shadow-none sm:m-0 mx-5 rounded-2xl">
+      <div className="max-w-300 w-1 float-right sm:rounded-xl md:rounded-none p-2 md:bg-[#E5E5E5] sm:bg-white  m-4 md:my-10 rounded-2xl md:rounded-none ">
         {true && (
           <span className="my-2 hidden md:block ">
             <div className="flex flex-row gap-2">

@@ -1,5 +1,7 @@
 .paymentParentContainer {
   margin: 40px;
+  max-width: 928px;
+  margin: auto;
 }
 
 .head {

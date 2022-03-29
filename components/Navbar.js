@@ -11,7 +11,7 @@ const Navbar = () => {
       className="sm:p-0"
     >
       <div className="md:grid hidden sm:gap-4 max-w-8xl m-auto grid-cols-2 sm:grid-cols-navbar ">
-        <div className="flex flex-row gap-4 justify-center">
+        <div className="flex flex-row gap-4 ml-4">
           <Image
             width={60}
             height={60}
