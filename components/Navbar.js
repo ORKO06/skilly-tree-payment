@@ -6,9 +6,8 @@ const Navbar = () => {
     <div
       style={{
         boxShadow: `0px 4px 11px rgba(0, 0, 0, 0.14)`,
-        padding: "20px 0",
       }}
-      className="sm:p-0"
+      className="p-0 sm:py-4"
     >
       <div className="md:grid hidden sm:gap-4 max-w-8xl m-auto grid-cols-2 sm:grid-cols-navbar ">
         <div className="flex flex-row gap-4 ml-4">
@@ -89,7 +88,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="grid md:hidden  py-8 block sm:gap-4 grid-cols-navbar sm:grid-cols-navbar ">
+      <div className="grid md:hidden  py-4 block sm:gap-4 grid-cols-navbar sm:grid-cols-navbar ">
         <div className="flex flex-col gap-1 align-center justify-center px-2">
           <h4
             style={{
