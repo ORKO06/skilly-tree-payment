@@ -57,7 +57,7 @@ function Payment() {
                   style={{
                     color: "blue",
                     fontSize: "14px",
-                    marginLeft: "50px",
+                    marginLeft: "85px",
                   }}
                 />
               </span>

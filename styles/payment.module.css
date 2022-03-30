@@ -218,6 +218,10 @@
     display: none;
   }
 
+  .btnRed {
+    width: fit-content;
+  }
+
   .heading {
     display: none;
   }
