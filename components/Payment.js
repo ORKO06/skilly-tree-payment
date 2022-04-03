@@ -10,7 +10,8 @@ function Payment() {
     <div className={style.paymentParentContainer}>
       <div className={style.head}>
         <h1>Personal Details</h1>
-        <span>• Payment section</span>
+        <span>• </span>
+        <span> Payment section</span>
       </div>
       <h1 className={style.head2}>PAYMENT CHECKOUT</h1>
       <h1 className={style.heading}>Payment Section</h1>
