@@ -69,13 +69,13 @@ const OrderSummary = () => {
           className="max-w-300 m-auto "
         />
 
-        <div className="flex justify-around md:my-6 my-2 ">
+        <div className="flex justify-around md:justify-between md:my-6 my-2 ">
           <p className="font-thin text-sm" style={{ color: "#6B6B6B" }}>
             Apply Coupon
           </p>
           <input
             className="rounded-lg"
-            style={{ background: "#f5f5f5", width: "80px" }}
+            style={{ background: "#f5f5f5", width: "120px" }}
             type="text"
           />
         </div>
@@ -84,7 +84,7 @@ const OrderSummary = () => {
           className="max-w-300 m-auto "
         />
 
-        <div className="flex justify-between p-4 m-0 md:my-4">
+        <div className="flex justify-between p-4 md:p-0 m-0 md:my-4">
           <div style={{ color: "#8C8C8C" }}>
             <p className="text-sm font-normal"> Service Details</p>
             <p className="text-base font-normal">1 hour lesson</p>
@@ -111,7 +111,7 @@ const OrderSummary = () => {
           className="max-w-300 m-auto "
         />
 
-        <div className="flex justify-between px-4">
+        <div className="flex justify-between px-4 md:px-0">
           <p style={{ color: "#8C8C8C" }} className="text-lg font-normal">
             Total
           </p>

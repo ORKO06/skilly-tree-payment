@@ -10,7 +10,7 @@ const Navbar = () => {
       className="p-0 sm:py-4"
     >
       <div className="md:grid hidden sm:gap-4 max-w-8xl m-auto grid-cols-2 sm:grid-cols-navbar ">
-        <div className="flex flex-row gap-4 ml-4">
+        <div className="flex flex-row gap-4 ml-4 ">
           <Image
             width={60}
             height={60}
@@ -74,16 +74,21 @@ const Navbar = () => {
               }}
             />
           </div>
-          <h1 className="hidden sm:block"> Log In</h1>
+          <h1
+            style={{ fontWeight: "600", fontSize: "22px", color: "#s1f1f1f" }}
+            className="hidden sm:block"
+          >
+            Log In
+          </h1>
           <div className="text-sm md:text-xs">
             <button
-              className="rounded-full px-4 sm:px-6 py-2 text-white"
+              className="rounded-full px-4 sm:px-6 py-4 text-white"
               style={{
                 background:
                   "linear-gradient(112.33deg, #FC4D6D 23.89%, #FDA02F 94.22%)",
               }}
             >
-              Sign In
+              <p style={{ fontWeight: "700", fontSize: "22px" }}>Sign In</p>
             </button>
           </div>
         </div>

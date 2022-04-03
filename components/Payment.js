@@ -8,9 +8,10 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 function Payment() {
   return (
     <div className={style.paymentParentContainer}>
-      <h1 className={style.head}>
-        Personal Details <span>• Payment section</span>
-      </h1>
+      <div className={style.head}>
+        <h1>Personal Details</h1>
+        <span>• Payment section</span>
+      </div>
       <h1 className={style.head2}>PAYMENT CHECKOUT</h1>
       <h1 className={style.heading}>Payment Section</h1>
       <h1 className={style.subheading}>
